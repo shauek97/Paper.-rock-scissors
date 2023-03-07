@@ -37,23 +37,23 @@ function submitHandler (){
   console.log(computerChoice)
   console.log(playerChoice)
   if(playerChoice.innerHTML === 'paper' && computerChoice.innerHTML === 'scissors'){
-   return(result.innerHTML = "You've lost");
+   return(result.innerHTML = " You've lost");
   }
   
   if(playerChoice.innerHTML === 'scissors' && computerChoice.innerHTML === 'rock'){
-   return(result.innerHTML = "You've lost");
+   return(result.innerHTML = " You've lost");
   }
   
   if(playerChoice.innerHTML === 'rock' && computerChoice.innerHTML === 'paper'){
-   return(result.innerHTML = "You've lost");
+   return(result.innerHTML = " You've lost");
   }
   
   if(playerChoice.innerHTML === computerChoice.innerHTML ){
-   return(result.innerHTML = 'Draw.');
+   return(result.innerHTML = ' Draw.');
   }
   
   else {
-    return(result.innerHTML = "You won");
+    return(result.innerHTML = " You won");
   };
 };
 
