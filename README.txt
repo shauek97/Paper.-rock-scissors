@@ -1,0 +1,1 @@
+Just a simple paper, rock, scissors game. Run index.html to play :).
